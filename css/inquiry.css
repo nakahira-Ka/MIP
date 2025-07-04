@@ -1,0 +1,29 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #F5FAFE;
+    margin: 80px auto 0 auto; 
+    /*max-width: 1200px;        
+    padding: 0 20px; */     
+
+}
+h1{
+    font-size: 3rem;
+}
+.content{
+    background-color: #FFF;
+    border-radius: 57px;
+    padding: 0 148px;
+
+}
+.formWrap{
+    /*background-color: #0D6BCF;*/
+    h2{
+        color: #000;
+    }
+    input{
+        border: solid 1px #000;
+        border-radius: 50px;
+    }
+}
