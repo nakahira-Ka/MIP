@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>お問い合わせ</title>
+    <link rel="stylesheet" href="./css/ress.css">
+    <link rel="stylesheet" href="./css/inquiry.css">
 </head>
 <body>
-    
+    <div class="contentWrap">
+        <div class="content">
+            <h1>お問い合わせ</h1>
+            <img src="./img/inquiry.svg" alt="お問い合わせ画像">
+
+            <div class="formWrap">
+                <h2>会社名</h2>
+                <input type="text">
+
+                <h2>性</h2>
+                <input type="text">
+
+                <h2>名</h2>
+                <input type="text">
+
+                <h2>電話番号</h2>
+                <input type="tel" pattern="\d{3}-\d{4}-\d{4}">
+
+                <h2>E-mail</h2>
+                <input type="email">
+
+                <h2>お問い合わせのきっかけ</h2>
+                <input type="text">
+            </div>
+            <input type="submit" class="submitButton">
+        </div>
+        <footer>
+            <img src="./img/footer-logo.svg" alt="フッターロゴ">
+            <p>MIP<br>Solution</p>
+
+            <nav>
+                <ul>
+                    <li><a href="">トップ</a></li>
+                    <li><a href="">会社概要</a></li>
+                    <li><a href="">新着情報</a></li>
+                    <li><a href="">事業内容</a></li>
+                    <li><a href="">事例紹介</a></li>
+                </ul>
+            </nav>
+
+            <button>お問い合わせ</button>
+        </footer>
+    </div>
+
 </body>
 </html>
