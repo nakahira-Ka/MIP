@@ -9,7 +9,6 @@ a{
 
 /* header */
 .header-wrap{
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center; 
@@ -53,5 +52,15 @@ h1{
   border-radius: 15.5px;
 }
 
-
 /* header */
+
+
+
+
+
+
+/* main */
+
+
+
+/* main */
