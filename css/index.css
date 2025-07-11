@@ -1,4 +1,6 @@
-/* aaa */
+html{
+  font-size: 62.5%;
+}
 ul,li{
   display: block;
   list-style: none;
@@ -12,6 +14,13 @@ a{
 .header-container{
   position: fixed;
   width: 100%;
+  color: #000;
+
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   /* background-color: #F5FAFE; */
   z-index: 1000;
 }
@@ -75,13 +84,13 @@ main{
 .top-img {  
   border: 1px solid tomato;
   height: 70rem;
-  background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 100%),
+  background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 20%, rgba(255, 0, 0, 0) 100%),
     url(../img/top-bg.jpg);
   background-repeat: no-repeat, no-repeat;
-  background-position: left top, 1200% top; 
+  background-position: left top, 130% top; 
   background-size: cover, contain; 
 }
-
+/* background: linear-gradient(90deg, #F5FAFE 0%, rgba(245, 250, 254, 0.00) 100%); */
 .top-wrap {
   border: 1px solid tomato;
   background-color: #F5FAFE;
@@ -89,22 +98,30 @@ main{
   width: 50%;
   object-fit: cover;
 }
-.t-text {
+.top-text {
+  border: 1px solid tomato;
   width: fit-content;
-  margin: 0 auto; 
+  margin: 23.9rem auto 0; 
   text-align: center;
 }
 
 .top-wrap h1{
   color: #005EA5;
   font-family: Inter;
-  font-size: 40px;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   margin-bottom: 0.6rem;
 }
-
+.overview p{
+  color: #7E6F6F;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  }
 .overview-btn{
   display: block;
   width: 141px;
@@ -123,5 +140,21 @@ main{
   width: 141px;
   height: 31px;
   border-radius: 15.5px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.Businesscontent{
+  border: 1px solid tomato;
+  margin-top: 5.4rem;
+  width: 450px;
+  height: 154px;
+  border-radius: 33px;
+  background: #CEE6FF;
 }
 /* main */
