@@ -8,31 +8,53 @@
     <link rel="stylesheet" href="./css/inquiry.css">
 </head>
 <body>
-    <div class="contentWrap">
+<header>
+    <div class="header-container">
+        <div class="header-wrap">
+        <h1><a href=""><img src="img/logo.svg" alt=""></a></h1>
+        <nav class="g-navi">
+            <ul>
+                <li><a href="">トップ</a></li>
+                <li><a href="">会社概要</a></li>
+                <li><a href="">新着情報</a></li>
+                <li><a href="">事業内容</a></li>
+                <li><a href="">事例紹介</a></li>
+                <li class="inquiry-btn"><a href="">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+</header>
+<main>
+
+    <div class="content-wrap">
         <div class="content">
-            <h1>お問い合わせ</h1>
-            <img src="./img/inquiry.svg" alt="お問い合わせ画像">
+            <div class="inquiry-title">
+                <h2>お問い合わせ</h2>
+                <img src="./img/inquiry.svg" alt="お問い合わせ画像">
+            </div>
 
-            <div class="formWrap">
-                <h2>会社名</h2>
+            <div class="form-wrap">
+                <h3>会社名</h3>
                 <input type="text">
 
-                <h2>性</h2>
+                <h3>性</h3>
                 <input type="text">
 
-                <h2>名</h2>
+                <h3>名</h3>
                 <input type="text">
 
-                <h2>電話番号</h2>
+                <h3>電話番号</h3>
                 <input type="tel" pattern="\d{3}-\d{4}-\d{4}">
 
-                <h2>E-mail</h2>
+                <h3>E-mail</h3>
                 <input type="email">
 
-                <h2>お問い合わせのきっかけ</h2>
+                <h3>お問い合わせのきっかけ</h3>
                 <input type="text">
+                
             </div>
-            <input type="submit" class="submitButton">
+            <input type="submit" class="submit-button">
         </div>
         <footer>
             <img src="./img/footer-logo.svg" alt="フッターロゴ">
