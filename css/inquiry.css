@@ -3,27 +3,110 @@ html{
 }
 body{
     background-color: #F5FAFE;
-    margin: 80px auto 0 auto; 
-    /*max-width: 1200px;        
-    padding: 0 20px; */     
-
 }
-h1{
-    font-size: 3rem;
+
+
+ul,li{
+    display: block;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* header */
+
+.header-container{
+    position: fixed;
+    width: 100%;
+  /* background-color: #F5FAFE; */
+    z-index: 1000;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7rem 9.8rem 0;
+    border-radius: 30px;
+    background: #FFF;
+    position: relative;
+    z-index: 100;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.header-wrap h1{
+    margin-left: 4.4rem;
+}
+.g-navi{
+    margin-right: 3.8rem;
+}
+.g-navi ul{
+    display: flex;
+    gap: 2.5rem;
+}
+.g-navi a{
+    display: block;
+    padding: 0.8rem 0;
+    width: 100%;
+    height: 100%;
+}
+.inquiry-btn{
+    display: block;
+    width: 141px;
+    height: 31px;
+    border-radius: 15.5px;
+    background: #0D6BCF;
+    box-shadow: 4px 4px 2.9px -1px rgba(0, 0, 0, 0.25);
+    align-self: center;
+}
+.inquiry-btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    width: 141px;
+    height: 31px;
+    border-radius: 15.5px;
+}
+
+/* inquiryForm*/
+.inquiry-title{
+    h2{
+        font-size: 3rem;
+        text-align: center;
+        padding-top: 72px;
+    }
+    img{
+        display: block;
+        padding-left: 120px;
+        padding-top: 24px;
+    }
 }
 .content{
     background-color: #FFF;
     border-radius: 57px;
-    padding: 0 148px;
-
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
 }
-.formWrap{
-    /*background-color: #0D6BCF;*/
-    h2{
-        color: #000;
+
+.form-wrap{
+    background-color: #0D6BCF;
+    width: 40%;
+    h3{
+        font-size: 1.6rem;
+        color: #FFF;
     }
     input{
-        border: solid 1px #000;
+        background-color: #FFF;
+        width: 40%;
+        height: 7%;
         border-radius: 50px;
+    }
+    input:last-child{
+        height: 30%;
+        border-radius: 22px;
     }
 }
