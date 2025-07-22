@@ -29,10 +29,10 @@ a{
   justify-content: space-between;
   align-items: center; 
   margin: 7rem 9.8rem 0;
-  border-radius: 30px;
+  border-radius: 3rem;
   background: #FFF;
   z-index: 100;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0rem 0.4rem 0.4rem 0rem rgba(0, 0, 0, 0.25);
   
 }
 .header-wrap h1{
@@ -53,11 +53,11 @@ a{
 }
 .inquiry-btn{
   display: block;
-  width: 141px;
-  height: 31px;
-  border-radius: 15.5px;
+  width: 14.1rem;
+  height: 3.1rem;
+  border-radius: 1.55rem;
   background: #0D6BCF;
-  box-shadow: 4px 4px 2.9px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0.4rem 0.4rem 0.29rem -0.1rem rgba(0, 0, 0, 0.25);
   align-self: center;
 }
 .inquiry-btn a{
@@ -65,9 +65,9 @@ a{
   justify-content: center;
   align-items: center;   
   color: #FFF;
-  width: 141px;
-  height: 31px;
-  border-radius: 15.5px;
+  width: 14.1rem;
+  height: 3.1rem;
+  border-radius: 1.55rem;
 }
 
 /* header */
@@ -81,8 +81,38 @@ a{
 main{
   background-color: #F5FAFE;
 }
+.inquiry-tabu{
+  position: fixed;
+  margin-top: 52rem;
+  right: 0;       
+  transform: translateY(-50%); 
+  z-index: 10;
+}
+.inquiry-tabu-btn{
+  width: 80px;
+  height: 284px;
+  border-radius: 50px 0px 0px 50px;
+  background: #0D6BCF;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+.inquiry-tabu-btn a{
+  /* background-color: tomato; */
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  writing-mode: vertical-rl;
+}
+
+
+
+
 .top-img {  
-  border: 1px solid tomato;
   height: 70rem;
   background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 20%, rgba(255, 0, 0, 0) 100%),
     url(../img/top-bg.jpg);
@@ -90,18 +120,16 @@ main{
   background-position: left top, 130% top; 
   background-size: cover, contain; 
 }
-/* background: linear-gradient(90deg, #F5FAFE 0%, rgba(245, 250, 254, 0.00) 100%); */
 .top-wrap {
-  border: 1px solid tomato;
   background-color: #F5FAFE;
   height: 100%;
   width: 50%;
   object-fit: cover;
 }
 .top-text {
-  border: 1px solid tomato;
   width: fit-content;
-  margin: 23.9rem auto 0; 
+  padding-top: 23.9rem;
+  margin: 0 auto 0; 
   text-align: center;
 }
 
@@ -124,9 +152,9 @@ main{
   }
 .overview-btn{
   display: block;
-  width: 141px;
-  height: 31px;
-  border-radius: 15.5px;
+  width: 14.1rem;
+  height: 3.1rem;
+  border-radius: 1.55rem;
   margin: 1.7rem auto 0; 
   background: #0D6BCF;
   box-shadow: 4px 4px 2.9px -1px rgba(0, 0, 0, 0.25);
@@ -136,25 +164,62 @@ main{
   display: flex; 
   justify-content: center;
   align-items: center;   
+  width: 14.1rem;
+  height: 3.1rem;
+  border-radius: 1.55rem;
   color: #FFF;
-  width: 141px;
-  height: 31px;
-  border-radius: 15.5px;
-  color: #FFF;
-  text-align: center;
   font-family: Inter;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
 }
 
 .Businesscontent{
-  border: 1px solid tomato;
   margin-top: 5.4rem;
-  width: 450px;
-  height: 154px;
-  border-radius: 33px;
+  width: 45rem;
+  height: 15.4rem;
+  border-radius: 3.3rem;
   background: #CEE6FF;
+}
+.Businesscontent p:first-child {
+  border: 1px solid black;
+  display: flex;            
+  align-items: center;      
+  justify-content: center;  
+  width: 45rem;
+  height: 4.6rem;
+  border-radius: 3.3rem 3.3rem 0 0;
+  background: #1B64B2;
+  color: #fff;           
+  margin: 0 auto;         
+  font-size: 1.6rem;   
+}
+
+.Businesscontent-btn{
+  display: flex;
+  align-items: center;       
+  justify-content: center;   
+  width: 34.3rem;
+  height: 3.7rem;
+  border-radius: 1.85rem;
+  margin: 3.9rem auto 0;
+  background: #FFF;
+  box-shadow: 0.4rem 0.6rem 0.23rem 0rem rgba(0, 0, 0, 0.25);
+}
+.Businesscontent-btn a{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;      
+  justify-content: center;  
+  color: #686868;   
+  border-radius: 1.85rem;
+  text-align: center;
+  font-family: Inter;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 /* main */
