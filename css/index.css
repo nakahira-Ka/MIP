@@ -112,6 +112,7 @@ main{
 
 
 
+
 .top-img {  
   height: 70rem;
   background: linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 20%, rgba(255, 0, 0, 0) 100%),
@@ -132,7 +133,6 @@ main{
   margin: 0 auto 0; 
   text-align: center;
 }
-
 .top-wrap h1{
   color: #005EA5;
   font-family: Inter;
@@ -174,7 +174,6 @@ main{
   font-weight: 300;
   line-height: normal;
 }
-
 .Businesscontent{
   margin-top: 5.4rem;
   width: 45rem;
@@ -195,7 +194,6 @@ main{
   margin: 0 auto;         
   font-size: 1.6rem;   
 }
-
 .Businesscontent-btn{
   display: flex;
   align-items: center;       
@@ -222,4 +220,241 @@ main{
   font-weight: 700;
   line-height: normal;
 }
+
+
+
+
+
+
+
+.company{
+  height: 52.2rem;
+  background-color: #fff;
+}
+.companies{
+  margin-top: 5rem;
+}
+.companies h2{
+  color: #343E47;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+.companies p{
+  color: #343E47;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 853px;
+  height: 101px;
+  margin: 0 auto;
+  padding: 0 1rem;  
+}
+.campany-logos{
+  display: flex;
+  flex-direction: column;
+  width: 85rem;
+  margin:0 auto;
+  /* align-items: center; */
+}
+.logo{
+  /* border: 1px solid tomato; */
+  display: flex;
+  align-items: center;   
+  padding: 1rem 0; 
+}
+.logo1{
+  display: flex;
+  gap: 5px;
+}
+.logo2{
+  display: flex;
+  gap: 45px;
+  margin-left: 2rem;
+}
+.logo3{
+  display: flex;
+  gap: 28px;
+  margin-left: 1.6rem;
+}
+
+
+
+
+
+
+.service{
+  border: 1px solid tomato;
+  height: 120rem;
+}
+.service-wrap{
+  width: 108rem;
+  height: 105rem;
+  border-radius: 6.5rem;
+  background: #FFF;
+  margin: 8rem auto 7rem;
+}
+.service-title{
+  padding-top: 5.7rem;
+  text-align: center;
+}
+.service-title h2{
+  margin-bottom: 2.4rem;
+  color: #005EA5;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.service-title p{
+  color: #343E47;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.customer-wrap{
+  display: flex;
+  width: 80%;        
+  max-width: 90rem;  
+  margin: 9rem auto 0;
+
+}
+.customer-text h3{
+  color: #005EA5;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.customer-text p{
+  color: #343E47;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  
+}
+.correspondence{
+  display: flex;
+  width: 80%;        
+  max-width: 90rem;  
+  margin: 3.5rem auto 0;
+}
+.correspondence-text{
+  margin-left: 3rem;
+}
+.correspondence-text h3{
+  color: #005EA5;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.correspondence-text p{
+  color: #343E47;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+
+.inquiry-long-btn{
+  display: block;
+  width: 71.8rem;
+  height: 6rem;
+  margin-top: 7rem;
+  border-radius: 10rem;
+  background: #0D6BCF;
+  align-self: center;
+  margin: 7.3rem auto 8rem;
+}
+.inquiry-long-btn a{
+  display: flex; 
+  justify-content: center;
+  align-items: center;   
+  width: 71.8rem;
+  height: 6rem;
+  border-radius: 10rem;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+
+
+
+
+.main-inquiry{
+  height: 361px;
+  text-align: center;
+  background: #0D6BCF;
+  align-items: center;  
+  justify-content: center;
+}
+.main-inquiry h2{
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 4rem;
+}
+.main-inquiry-btn{
+  display: flex;               
+  justify-content: center;     
+  align-items: center;  
+  width: 529px;
+  height: 64px;
+  border-radius: 32px;
+  background: #FFF;
+  box-shadow: 4px 6px 3.5px 0px rgba(0, 0, 0, 0.25);
+  margin: 8rem auto 0;
+}
+.main-inquiry-btn a{
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  width: 529px;
+  height: 64px;
+  border-radius: 32px;
+  color: #0C54A1;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+} 
+/* .inquiry-img {
+  background-image: url("../img/inquiry.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 338.676px;
+  height: 202.993px;
+  transform: rotate(-10.625deg);
+  
+}  */
+
 /* main */
