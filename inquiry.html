@@ -1,66 +1,72 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>お問い合わせ</title>
-    <link rel="stylesheet" href="./css/ress.css">
-    <link rel="stylesheet" href="./css/inquiry.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/ress.css" />
+    <link rel="stylesheet" href="./css/inquiry.css" />
+    </head>
+    <body>
+
 <header>
     <div class="header-container">
         <div class="header-wrap">
         <h1><a href=""><img src="img/logo.svg" alt=""></a></h1>
         <nav class="g-navi">
             <ul>
-                <li><a href="">トップ</a></li>
-                <li><a href="">会社概要</a></li>
-                <li><a href="">新着情報</a></li>
-                <li><a href="">事業内容</a></li>
-                <li><a href="">事例紹介</a></li>
-                <li class="inquiry-btn"><a href="">お問い合わせ</a></li>
+            <li><a href="">トップ</a></li>
+            <li><a href="">会社概要</a></li>
+            <li><a href="">新着情報</a></li>
+            <li><a href="">事業内容</a></li>
+            <li><a href="">事例紹介</a></li>
+            <li class="inquiry-btn"><a href="">お問い合わせ</a></li>
             </ul>
         </nav>
         </div>
     </div>
 </header>
-<main>
 
-    <div class="content-wrap">
-        <div class="content">
-            <div class="inquiry-title">
-                <h2>お問い合わせ</h2>
-                <img src="./img/inquiry.svg" alt="お問い合わせ画像">
+    <main>
+        <div class="content-wrap">
+        <div class="inquiry-container">
+            <div class="inquiry-left">
+            <h2>お問い合わせ</h2>
+            <img src="./img/inquiry.svg" alt="お問い合わせ画像" />
             </div>
+            <div class="inquiry-right">
+            <form class="form-wrap">
+                <label>会社名</label>
+                <input type="text" />
 
-            <div class="form-wrap">
-                <h3>会社名</h3>
-                <input type="text">
+                <label>性</label>
+                <input type="text" />
 
-                <h3>性</h3>
-                <input type="text">
+                <label>名</label>
+                <input type="text" />
 
-                <h3>名</h3>
-                <input type="text">
+                <label>電話番号</label>
+                <input type="tel" pattern="\d{3}-\d{4}-\d{4}" />
 
-                <h3>電話番号</h3>
-                <input type="tel" pattern="\d{3}-\d{4}-\d{4}">
+                <label>E-mail</label>
+                <input type="email" />
 
-                <h3>E-mail</h3>
-                <input type="email">
+                <label>お問い合わせのきっかけ</label>
+                <textarea rows="4"></textarea>
 
-                <h3>お問い合わせのきっかけ</h3>
-                <input type="text">
-                
+            </form>
+                <input type="submit" class="submit-button" value="送信" />
             </div>
-            <input type="submit" class="submit-button">
         </div>
-        <footer>
-            <img src="./img/footer-logo.svg" alt="フッターロゴ">
-            <p>MIP<br>Solution</p>
 
-            <nav>
+        <footer>
+            <div class="left-parts">
+            <img src="./img/footer-logo.svg" alt="フッターロゴ" />
+            <p>MIP<br>Solution</p>
+            </div>
+            <div class="right-parts">
+            <div class="footer-nav">
+                <nav>
                 <ul>
                     <li><a href="">トップ</a></li>
                     <li><a href="">会社概要</a></li>
@@ -68,11 +74,12 @@
                     <li><a href="">事業内容</a></li>
                     <li><a href="">事例紹介</a></li>
                 </ul>
-            </nav>
-
-            <button>お問い合わせ</button>
+                </nav>
+                <button>お問い合わせ</button>
+            </div>
+            </div>
         </footer>
-    </div>
-
-</body>
-</html>
+        </div>
+    </main>
+    </body>
+    </html>
